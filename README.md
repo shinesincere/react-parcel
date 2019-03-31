@@ -120,3 +120,9 @@ Setting up a React project with Parcel as a bundler.
 * react-parcel $ git commit -m 'initial'
 
 * react-parcel $ git push -u origin master
+
+* react-parcel $ npm run deploy
+
+* react-parcel $ google-chrome  https://github.com/shinesincere/react-parcel/tree/gh-pages
+
+* react-parcel $ google-chrome  https://shinesincere.github.io/react-parcel/

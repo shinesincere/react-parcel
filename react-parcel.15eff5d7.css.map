@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/app.scss","index.css"],"names":[],"mappings":"AAAA,cACE,UAAY,CCDd,KACE,iBACF","file":"react-parcel.15eff5d7.css","sourceRoot":"..","sourcesContent":[".title {\n  color: white;\n}","body {\n  background: orange;\n}"]}

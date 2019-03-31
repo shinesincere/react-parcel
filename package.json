@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/shinesincere/react-parcel#readme",
+  "homepage": "https://github.com/shinesincere/react-parcel",
   "name": "react-parcel",
   "version": "1.0.0",
   "author": "shine sincere",
@@ -12,9 +12,11 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html -d build --public-url ./"
+    "build": "parcel build index.html -d build --public-url ./",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },

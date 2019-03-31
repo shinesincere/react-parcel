@@ -25,7 +25,7 @@ Setting up a React project with Parcel as a bundler.
 
 * react-parcel $ npm i -S react react-dom
 
-* react-parcel $ npm i -D babel-preset-react babel-preset-env node-sass postcss-modules autoprefixer
+* react-parcel $ npm i -D babel-preset-react babel-preset-env node-sass postcss-modules autoprefixer gh-pages
 
 * react-parcel $ code .gitignore 
 ~ `.env .cache dist node_modules`
@@ -67,9 +67,11 @@ Setting up a React project with Parcel as a bundler.
 
 * react-parcel $ code package.json
 ~ `
+  "homepage": "https://github.com/shinesincere/react-parcel",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html -d build --public-url ./"
+    "build": "parcel build index.html -d build --public-url ./",
+    "deploy": "gh-pages -d build"
   },
 `
 
@@ -114,3 +116,7 @@ Setting up a React project with Parcel as a bundler.
 * react-parcel $ git status
 
 * react-parcel $ git add .
+
+* react-parcel $ git commit -m 'initial'
+
+* react-parcel $ git push -u origin master
